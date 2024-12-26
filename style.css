@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e9dfdf;
+  background: url(https://plus.unsplash.com/premium_photo-1672201106204-58e9af7a2888?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JhZGllbnQlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quiz-container {
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  margin: 20px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-style: italic;
+ color: black;
+  
+}
+
+button {
+  padding: 20px 20px;
+  width: 200px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:enabled {
+  background-color: #17a837;
+}
+
+button:hover {
+  background-color: orange;
+  color: #1b074b;
+  transition: 0.5s;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+#options {
+  list-style: none;
+  padding: 0;
+}
+
+#options li {
+  margin: 10px 0;
+  background-color: #258fe6;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#options li:hover {
+  
+  background-color: #6610f2;
+}
